@@ -1,13 +1,13 @@
 {
-  "host": "Chatz-app.feathersjs.com",
-  "port": 80,
-  "nedb": "NEDB_BASE_PATH",
+  "host": "localhost",
+  "port": 3030,
+  "nedb": "../data/",
   "public": "../public/",
   "auth": {
     "token": {
-      "secret": "FEATHERS_AUTH_SECRET"
+      "secret": "D+x3T800T1GOJ+ZO3kkBC7vwOIo2ar6tCaE0AIvsnOgsgr6bec0xt6EHVbphK7Q3Y5w7ii+LU+wCtV5M7w74xw=="
     },
-    "local": {}
+    "local": {},
+    "successRedirect": "/chat.html"
   }
 }
-
